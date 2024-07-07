@@ -1,8 +1,12 @@
 package codewars.strings.complementary_dna;
 
-import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.junit.jupiter.api.Test;
+
+/**
+ * All tests are taken from the codewars.com
+ */
 class DnaStrandTest {
     @Test
     public void test01() {
