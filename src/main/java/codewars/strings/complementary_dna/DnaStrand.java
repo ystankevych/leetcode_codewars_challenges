@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 /**
  * 7 kyu. Complementary DNA
- * <a href="https://www.codewars.com/kata/reviews/5559c4009f65514a9d0000b0/groups/6685b456e218f2cf5e9ee4f4"/a>
+ * <a href="https://www.codewars.com/kata/reviews/5559c4009f65514a9d0000b0/groups/6685b456e218f2cf5e9ee4f4">...</a>
  * Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carries the "instructions"
  * for the development and functioning of living organisms.
  * In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G".
