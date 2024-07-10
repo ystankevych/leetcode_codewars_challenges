@@ -1,11 +1,11 @@
-package leetcode.linkedlist.reverse_list;
+package leetcode.linkedlist;
 
 /**
  * Definition for singly-linked list.
  */
 public class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
     private ListNode() {
     }
@@ -27,5 +27,17 @@ public class ListNode {
             head = head.next;
         }
         return toReturn;
+    }
+
+    public static ListNode of(int value, ListNode next) {
+        return new ListNode(value, next);
+    }
+
+    public static void printListNode(ListNode listNode) {
+        while (listNode != null) {
+            System.out.print(listNode.val + " ");
+            listNode = listNode.next;
+        }
+        System.out.println();
     }
 }
